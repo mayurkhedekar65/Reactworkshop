@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "./Components/Input";
+import InputField from "./Components/InputField";
 import Button from "./Components/Button";
 import { useState } from "react";
 import Task from "./Components/Task";
@@ -31,7 +31,7 @@ const App = () => {
     <div style={appStyle}>
       <h3>Todo List</h3>
       <div>
-        <Input
+        <InputField
           type="text"
           style={inputStyle}
           placeholder="Add a new task"
