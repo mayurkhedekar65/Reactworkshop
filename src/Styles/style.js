@@ -1,11 +1,15 @@
 export const appStyle = {
-    textAlign: "center",
-    backgroundImage: "linear-gradient(to top,#a18cd1 0%,#fbc2eb 100%)",
-    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-    padding: "20px",
-    borderRadius: "10px",
-    height: "100vh",
-  };
+  fontFamily: "Arial, sans-serif",
+  textAlign: "center",
+  padding: "20px",
+  minHeight: "100vh",
+  background: "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+  backgroundAttachment: "fixed",
+  color: "#2d3436",
+  boxShadow: "inset 0 0 200px rgba(255, 255, 255, 0.2)",
+};
+
+
 
   export const inputStyle = {
     padding: "0.1rem 1em",
